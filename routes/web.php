@@ -18,14 +18,14 @@ use App\Http\Controllers\LoginController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 
-Route::get('/welcome', function () {
-    //echo "Welcome tho Sonic";
-    return view('hello');
-});
+// Route::get('/welcome', function () {
+//     //echo "Welcome tho Sonic";
+//     return view('hello');
+// });
 
 
 
